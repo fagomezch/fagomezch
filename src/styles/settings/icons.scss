@@ -1,0 +1,37 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.icon {
+  font-size: 2em;
+
+  &-github:before {
+    color: $black;
+    content: "\e900";
+  }
+
+  &-gmail:before {
+    color: #d14836;
+    content: "\e902";
+  }
+
+  &-linkedin:before {
+    color: #0077b5;
+    content: "\e901";
+  }
+
+  &-whatsapp:before {
+    color: #1ad740;
+    content: "\ea93";
+  }
+
+}

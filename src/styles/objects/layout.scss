@@ -1,0 +1,54 @@
+.col {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 320px;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 720px;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .container {
+    max-width: 960px;
+  }
+
+  .row {
+    flex-wrap: nowrap;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+    max-width: 1260px;
+  }
+
+}

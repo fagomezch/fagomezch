@@ -1,0 +1,22 @@
+.slider__copy {
+  margin-top: 40px;
+  padding: 0;
+  text-align: left;
+
+  > span {
+    color: $black;
+    display: block;
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) {
+  .slider__copy {
+    > span {
+      font-size: 15px;
+    }
+  }
+}

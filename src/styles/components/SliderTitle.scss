@@ -1,0 +1,25 @@
+.slider__title {
+  color: $black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 49px;
+  margin-top: 0;
+  text-transform: inherit;
+  width: 100%;
+
+  span {
+    color: $red;
+  }
+}
+
+.slider__transition {
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .slider__title {
+    font-size: 53px;
+    line-height: 70px;
+  }
+}
