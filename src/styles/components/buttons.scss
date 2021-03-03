@@ -1,0 +1,46 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+
+    &:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
+}
+
+
+.btn-primary {
+    background-color: $black;
+    border: 2px solid $white;
+    border-color: $white;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px -8px black;
+    color: #fff;
+    display: inline-block;
+    font-family: "Poppins", Helvetica,sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-bottom: .75em;
+    margin-right: .25em;
+    outline: 0;
+    padding: .8em 2.1em;
+    position: relative;
+    text-shadow: none;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: $white;
+        color: $black;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: auto;
+    }
+}

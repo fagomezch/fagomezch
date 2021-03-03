@@ -15,13 +15,13 @@
   font-size: 2em;
 
   &-github:before {
-    color: $black;
+    color: $white;
     content: "\e900";
   }
 
   &-gmail:before {
     color: #d14836;
-    content: "\e902";
+    content: "\e903";
   }
 
   &-linkedin:before {
@@ -29,9 +29,9 @@
     content: "\e901";
   }
 
-  &-whatsapp:before {
-    color: #1ad740;
-    content: "\ea93";
+  &-twitter:before {
+    color: #1da1f2;
+    content: "\ea96";
   }
 
 }

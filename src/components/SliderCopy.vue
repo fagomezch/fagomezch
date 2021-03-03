@@ -1,8 +1,8 @@
 <template>
   <div class="col slider__copy">
-    <span>Welcome to my World!</span>
+    <span>Since 2016</span>
     <SliderTitle />
-    <h2 class="slider__subtitle">based in COL </h2>
+    <h2 class="slider__subtitle">Based in COL </h2>
     <SocialNetworks />
   </div>
 </template>

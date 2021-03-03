@@ -20,7 +20,7 @@ export default {
   name: 'SliderCopy',
   data() {
     return {
-      items: ['Web Engineer.', 'Frontend dev.', 'JavaScript lover.'],
+      items: ['Web Engineer', 'Senior Web Dev', 'JavaScript lover'],
       currentItem: 0,
       show: true,
     };

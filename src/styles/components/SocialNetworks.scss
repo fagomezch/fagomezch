@@ -1,16 +1,27 @@
 .social__networks {
+  align-items: center;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
 
-  li {
-    padding: 1em;
-
-    &:first-of-type {
-      padding: 1em 1em 0 0;
-    }
-
+  &__download-cv {
+    width: 100%;
   }
 
+  li {
+    padding: 1em;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .social__networks {
+    justify-content: flex-start;
+    &__download-cv {
+      width: auto;
+    }
+  }
 }

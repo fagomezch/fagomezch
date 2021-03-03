@@ -1,7 +1,7 @@
 .slider {
   &__item {
     align-items: center;
-    background: $lightGray;
+    background: $black;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -9,7 +9,7 @@
 
   &__subtitle {
     align-items: center;
-    color: $black;
+    color: $white;
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
@@ -22,10 +22,10 @@
       background-repeat: no-repeat;
       background-size: cover;
       content: '';
-      height: 32px;
+      height: 52px;
       display: inline-flex;
       margin-left: 0.3em;
-      width: 32px;
+      width: 52px;
     }
   }
 }

@@ -7,6 +7,7 @@ import './styles/objects/animations.scss';
 import './styles/objects/layout.scss';
 import './styles/settings/fonts.scss';
 import './styles/settings/icons.scss';
+import './styles/components/buttons.scss';
 
 Vue.config.productionTip = false;
 
